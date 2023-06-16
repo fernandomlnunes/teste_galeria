@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galeria de Fotos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de largura igual */
+  grid-gap: 10px; /* Espaço entre as imagens */
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Altura desejada para as imagens */
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+</style>
+
+<body>
+  <div class="gallery">
+    <div class="image">
+      <img src="1.JPG" alt="Imagem 1">
+    </div>
+    <div class="image">
+      <img src="2.JPG" alt="Imagem 2">
+    </div>
+    <div class="image">
+      <img src="4.jpg" alt="Imagem 3">
+    </div>
+    <div class="image">
+      <img src="7.jpg" alt="Imagem 1">
+    </div>
+    <div class="image">
+      <img src="8.JPG" alt="Imagem 2">
+    </div>
+    <div class="image">
+      <img src="9.jpg" alt="Imagem 3">
+    </div>
+    <div class="image">
+      <img src="10.JPG" alt="Imagem 1">
+    </div>
+    <div class="image">
+      <img src="13.JPG" alt="Imagem 2">
+    </div>
+    <div class="image">
+      <img src="close.png" alt="Imagem 3">
+    </div>
+    <div class="image">
+      <img src="Escolhidas.JPG" alt="Imagem 1">
+    </div>
+    <div class="image">
+      <img src="loading.gif" alt="Imagem 2">
+    </div>
+    <div class="image">
+      <img src="next.png" alt="Imagem 3">
+    </div>
+    <div class="image">
+      <img src="prev.png" alt="Imagem 1">
+    </div>
+    <!-- Adicione mais divs de imagem conforme necessário -->
+  </div>
+</body>
+</html>
